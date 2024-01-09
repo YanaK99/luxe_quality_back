@@ -7,7 +7,9 @@
     {
       "src": "src/main.ts",
       "use": "@vercel/node",
-      "output": "dist"
+      "config": {
+        "public": false
+      }
     }
   ],
   "routes": [
